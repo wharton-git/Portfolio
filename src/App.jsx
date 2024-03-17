@@ -1,20 +1,24 @@
 /* eslint-disable react/no-unescaped-entities */
-import viteLogo from '/vite.svg'
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './Home'
+import Menu from './components/sideMenu'
+import './assets/styles/css/Style.css'
 import './App.css'
 
 function App() {
 
+  console.log("-----------------------------------------------------")
 
   return (
     <>
-      <div className=''>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        It's My new Portfolio Site, based on REACT and VITE (You will see al the content soon ... ) <br/>
-        Thanks for Watching
-      </div>
-      
+    <Menu/>
+      <BrowserRouter>
+        
+        <Routes>
+          <Route path='/Portfolio' element={<Home/>} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }

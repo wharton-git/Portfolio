@@ -1,0 +1,29 @@
+body {
+    // height: 200vh;
+    background-color: black;
+}
+#bio {
+    .text-bio {
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+}
+
+.flou {
+    backdrop-filter: blur(3px);
+}
+
+
+.styleTitle {
+    background: -webkit-linear-gradient( #e63a82, #932fe4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.projet {
+    @extend .styleTitle;
+}
+
+.contact {
+    @extend .styleTitle;
+}

@@ -1,0 +1,46 @@
+.dropdown {
+    
+    .svgMenu {
+        transition: 1s;
+    }
+
+    .items {
+        visibility: hidden;
+        transition: .5s;
+
+        a {
+            position: relative;
+            left: 150%;
+            display: flex;
+            font-size: 20px;
+            background: transparent;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 2.5px;
+            z-index: 1;
+            overflow: hidden;
+            transition: .5s;
+            transition-delay: calc(100ms * var(--i));
+
+            &:hover {
+                background: linear-gradient(#9333ea, #be185d );
+                transition: 3s;
+            }
+        }
+    }
+}
+
+.dropdown.active {
+
+    .svgMenu {
+        rotate: 90deg;
+    }
+
+    .items {
+        visibility: visible;
+        background: rgba($color: #000000, $alpha: .7);
+        a {
+            left: 0;
+        }
+    }
+}

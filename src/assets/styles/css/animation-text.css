@@ -1,0 +1,68 @@
+
+.animated-text{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
+
+.animated-text span{
+    position: relative;
+}
+
+.animated-text span::before{
+    content: "Web Developer";
+    background: -webkit-linear-gradient( #e63a82, #932fe4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: #6b21a8; */
+    /* background: linear-gradient(to top right, #be185d, #6b21a8) ;
+    -webkit-background-clip: text; */
+    animation: words 20s infinite;
+}
+
+.animated-text span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 12px);
+    height: 110%;
+    background:white;
+    /* background: linear-gradient(to top right, #be185d, #6b21a8) ; */
+    border-left: 2px solid #ff7f50;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    right: -8px;
+    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+    to{
+        border-left: 4px solid #ff7f5000;
+    }
+}
+
+@keyframes words {
+    0%,20%{
+        content: "Developer";
+    }
+    21%,40%{
+        content: "Designer";
+    }
+    41%,60%{
+        content: "Gamer";
+    }
+    61%,80%{
+        content: "Unknown";
+    }
+    81%,100%{
+        content: "Unknown";
+    }
+}
+
+@keyframes typing {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+}
