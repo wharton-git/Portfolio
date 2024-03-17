@@ -4,7 +4,7 @@ import W from '../assets/images/letter_W.png'
 
 function Home() {
     return (
-        <div class="head sm:h-screen">
+        <div class="head md:h-screen">
             <div class="container mx-auto">
                 <div class="text-white" id="bio">
                     <div class=" align-middle md:flex" id="bio-container">

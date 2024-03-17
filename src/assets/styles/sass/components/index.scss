@@ -5,14 +5,17 @@ body {
 #bio {
     .text-bio {
         margin-left: 5%;
-        margin-top: 10%;
+        padding-top: 10%;
     }
 }
 
-.flou {
-    backdrop-filter: blur(3px);
+.about {
+    background: linear-gradient(to bottom, $dark-purple, $dark-pink);
 }
 
+.flecheBas {
+    // background: linear-gradient(to bottom, black, black, black);
+}
 
 .styleTitle {
     background: -webkit-linear-gradient( #e63a82, #932fe4);

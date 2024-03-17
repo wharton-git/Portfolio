@@ -4,11 +4,11 @@ body {
 
 #bio .text-bio {
   margin-left: 5%;
-  margin-top: 10%;
+  padding-top: 10%;
 }
 
-.flou {
-  backdrop-filter: blur(3px);
+.about {
+  background: linear-gradient(to bottom, #450c78, #36071b);
 }
 
 .styleTitle, .contact, .projet {
