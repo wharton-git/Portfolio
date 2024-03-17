@@ -1,9 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './Home'
+import Home from './components/Home'
 import Menu from './components/sideMenu'
+import Fleche from './components/fleche'
+import PreAbout from './components/pre-about'
 import './assets/styles/css/Style.css'
+import './assets/styles/css/animation-text.css'
 import './App.css'
 
 function App() {
@@ -12,13 +15,16 @@ function App() {
 
   return (
     <>
+
     <Menu/>
+    <Home/>
+    <Fleche/>
+    <PreAbout/>
       <BrowserRouter>
-        
         <Routes>
-          <Route path='/Portfolio' element={<Home/>} />
         </Routes>
       </BrowserRouter>
+      
     </>
   )
 }

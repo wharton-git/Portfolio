@@ -36,13 +36,13 @@ function SideMenu() {
                         <a href="#" style={{ '--i': 1 }} className="bg-gradient-to-tr from-purple-950 to-pink-900">
                             <img src={Home} alt="" />
                         </a>
-                        <a href="#ancre1" style={{ '--i': 2 }} className="bg-gradient-to-tr from-purple-950 to-pink-900">
-                            <img src={About} alt="" srcset=""/>
+                        <a href="#about" style={{ '--i': 2 }} className="bg-gradient-to-tr from-purple-950 to-pink-900">
+                            <img src={About} alt="" />
                         </a>
-                        <a href="" style={{ '--i': 3 }} className="bg-gradient-to-tr from-purple-950 to-pink-900">
+                        <a href="#project" style={{ '--i': 3 }} className="bg-gradient-to-tr from-purple-950 to-pink-900">
                             <img src={Project} alt="" />
                         </a>
-                        <a href="#test" style={{ '--i': 4 }} className="bg-gradient-to-tr from-purple-950 to-pink-900">
+                        <a href="#contact" style={{ '--i': 4 }} className="bg-gradient-to-tr from-purple-950 to-pink-900">
                             <img src={Contact} alt="" />
                         </a>
                     </div>
