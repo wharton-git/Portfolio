@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Menu from './components/sideMenu'
 import Fleche from './components/fleche'
 import PreAbout from './components/pre-about'
+import Wave1 from './assets/svg/wave1.svg'
 import './assets/styles/css/Style.css'
 import './assets/styles/css/animation-text.css'
 import './App.css'
@@ -18,6 +19,9 @@ function App() {
 
     <Menu/>
     <Home/>
+    <div>
+      <img src={Wave1} alt="" />
+    </div>
     <Fleche/>
     <PreAbout/>
       <BrowserRouter>

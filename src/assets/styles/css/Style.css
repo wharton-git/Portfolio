@@ -11,6 +11,10 @@ body {
   background: linear-gradient(to bottom, #450c78, #36071b);
 }
 
+.fondFlecheBas {
+  background: #450c78;
+}
+
 .styleTitle, .contact, .projet {
   background: -webkit-linear-gradient(#e63a82, #932fe4);
   -webkit-background-clip: text;
@@ -18,7 +22,8 @@ body {
 }
 
 .flecheBas {
-  animation: float 0.7s infinite alternate ease-in-out;
+  animation: fadeInLeft 0.7s infinite alternate ease-in-out;
+  -webkit-animation: fadeInLeft 0.7s infinite alternate ease-in-out;
 }
 
 .text-bio {
