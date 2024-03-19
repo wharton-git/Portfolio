@@ -1,6 +1,6 @@
 .flecheBas {
-    animation: fadeInLeft .7s infinite alternate ease-in-out;
-    -webkit-animation: fadeInLeft .7s infinite alternate ease-in-out;
+    animation: fadeInLeft .7s forwards ease-in-out;
+    -webkit-animation: fadeInLeft .7s forwards ease-in-out;
 }
 
 .text-bio {

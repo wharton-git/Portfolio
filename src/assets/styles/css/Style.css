@@ -8,7 +8,11 @@ body {
 }
 
 .about {
-  background: linear-gradient(to bottom, #450c78, #36071b);
+  background: linear-gradient(to bottom, #450c78, #be185d);
+}
+
+.prefooter {
+  background: linear-gradient(to top, #3b0764, #be185d);
 }
 
 .fondFlecheBas {
@@ -22,8 +26,8 @@ body {
 }
 
 .flecheBas {
-  animation: fadeInLeft 0.7s infinite alternate ease-in-out;
-  -webkit-animation: fadeInLeft 0.7s infinite alternate ease-in-out;
+  animation: fadeInLeft 0.7s forwards ease-in-out;
+  -webkit-animation: fadeInLeft 0.7s forwards ease-in-out;
 }
 
 .text-bio {

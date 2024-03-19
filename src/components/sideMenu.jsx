@@ -4,6 +4,7 @@ import Home from './../assets/svg/home.svg'
 import About from './../assets/svg/about.svg'
 import Project from './../assets/svg/project.png'
 import Contact from './../assets/svg/contact.png'
+import Square from './../assets/svg/square.svg'
 import './../assets/styles/css/Style.css'
 
 function SideMenu() {

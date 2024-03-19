@@ -10,7 +10,11 @@ body {
 }
 
 .about {
-    background: linear-gradient(to bottom, $dark-purple, $dark-pink);
+    background: linear-gradient(to bottom, $dark-purple, $pink);
+}
+
+.prefooter {
+    background: linear-gradient(to top, #3b0764, $pink);
 }
 
 .fondFlecheBas {
@@ -29,4 +33,8 @@ body {
 
 .contact {
     @extend .styleTitle;
+}
+
+.footer {
+    
 }
